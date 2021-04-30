@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Treata Challenge</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Treata_challenge">Treata Challenge</string>
+    <string name="favorite">Favorites</string>
+    <string name="all_movie">Movies</string>
+    <string name="movie_name">نام فیلم :</string>
+    <string name="movie_type">نوع فیلم:</string>
+    <string name="serial">سریال</string>
+    <string name="cinematic">سینمایی</string>
+</resources>

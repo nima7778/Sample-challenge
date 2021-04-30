@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/mainPageFragment">
+
+    <fragment
+        android:id="@+id/mainPageFragment"
+        android:name="com.treatachallenge.ui.fragment.MainPageFragment"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" >
+        <action
+            android:id="@+id/action_mainPageFragment_to_detailOfMovieFragment"
+            app:destination="@id/detailOfMovieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailOfMovieFragment"
+        android:name="com.treatachallenge.ui.fragment.DetailOfMovieFragment"
+        android:label="fragment_detail_of_movie"
+        tools:layout="@layout/fragment_detail_of_movie" />
+</navigation>
